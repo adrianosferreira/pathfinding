@@ -83,7 +83,6 @@ class Renderer {
 			this.context.fillStyle = 'red';
 			this.context.fill();
 			this.context.lineWidth = 0;
-			this.context.stroke();
 		}
 	}
 
