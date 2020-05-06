@@ -1,5 +1,9 @@
-# Pathfinding algorithm using BFS (Breadth First Search)
+# Pathfinding algorithm using BFS
 
-A JS implementation of a pathfinding algorithm using BFS and rendering with HTML5 Canvas.
+A JS implementation of a pathfinding algorithm using BFS (Breadth First Search) and rendering with HTML Canvas. Complete stack:
 
-![Pathfinding algorithm](https://github.com/adrianosferreira/pathfinding/blob/master/screenshot.png "Pathfinding algorithm")
+- HTML
+- JS (ES6)
+- Webpack
+
+![Pathfinding algorithm](captured.gif "Pathfinding algorithm")
