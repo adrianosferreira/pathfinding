@@ -15,6 +15,7 @@ class Animation {
 
 	addEvent() {
 		this.renderer.get().addEventListener('click', (e) => {
+			window.cancelAnimationFrame(this.animationFrame);
 			this.animationFrame = null;
 			clearInterval(this.timerId);
 
