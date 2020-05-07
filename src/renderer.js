@@ -13,6 +13,10 @@ class Renderer {
 			linesSize: 0
 		};
 		this.occupied = {};
+		this.start = {
+			c: this.getRandomCol(),
+			r: this.getRandomRow(),
+		};
 
 		document.getElementsByTagName('body')[0].appendChild(this.canvas);
 	}
@@ -94,8 +98,8 @@ class Renderer {
 		return undefined !== this.occupied[this.getKey(c, r)] && this.occupied[this.getKey(c, r)] === 'tree';
 	}
 
-	drawTrees() {
-		for (let i = 0; i < 150; i++) {
+	drawTrees(trees) {
+		for (let i = 0; i < trees; i++) {
 			let c = this.getRandomCol();
 			let r = this.getRandomRow();
 

@@ -8,8 +8,8 @@ class Animation {
 		this.previous = {};
 		this.pathFinder = pathFinder;
 		this.start = {
-			'c': 0,
-			'r': 0
+			'c': renderer.start.c,
+			'r': renderer.start.r,
 		};
 	}
 
